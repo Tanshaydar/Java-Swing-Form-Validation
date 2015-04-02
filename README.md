@@ -1,10 +1,9 @@
 This little piece of code lets you to add validation to your Java Swing application forms.
-You can set verification to your JTextFields and JTextAreas with setInputVerifier(); method, which is a native Java method.
+You can set verification to your **JTextField**s and **JTextArea**s with [InputVerifier](https://docs.oracle.com/javase/7/docs/api/javax/swing/InputVerifier.html) method, which is a native Java method.
 
 Types of verifications this little piece of code supports are:
 
 * Integer only w/ min and max values.
-
 * Double only w/ min and max values. 
 * Max text length check.
 * Not null check.
